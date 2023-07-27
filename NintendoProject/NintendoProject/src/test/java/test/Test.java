@@ -1,24 +1,25 @@
 package test;
 
-import metier.Client;
-
 import java.time.LocalDate;
 
 import metier.Achat;
 import metier.Adresse;
 import metier.Boutique;
-import metier.Console;
+import metier.Client;
+import metier.Hybride;
 import metier.Jeu;
+import metier.Portable;
+import metier.Salon;
 
 public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Console c1 = new Console("DS");
-		Console c2 = new Console("Wii");
-		Console c3 = new Console("GameBoy Advance");
-		Console c4 = new Console("Switch");
-		Console c5 = new Console("Switch OLED");		
+		Portable c1 = new Portable("DS", 150, LocalDate.now());
+		Salon c2 = new Salon("Wii", 100, LocalDate.now());
+		Portable c3 = new Portable("GameBoy Advance", 80, LocalDate.now());
+		Hybride c4 = new Hybride("Switch", 350, LocalDate.now());
+		Hybride c5 = new Hybride("Switch OLED", 380, LocalDate.now());			
 		
 		Client cl1 = new Client("Titi", "TOTO");
 		Client cl2 = new Client("Doe", "John");
