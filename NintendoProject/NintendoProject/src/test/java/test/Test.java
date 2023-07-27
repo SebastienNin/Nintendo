@@ -1,5 +1,6 @@
 package test;
 
+import metier.Client;
 import metier.Console;
 
 public class Test {
@@ -11,6 +12,14 @@ public class Test {
 		Console c3 = new Console("GameBoy Advance");
 		Console c4 = new Console("Switch");
 		Console c5 = new Console("Switch OLED");
+		
+		
+		Client cl1 = new Client("Titi", "TOTO");
+		Client cl2 = new Client("Doe", "John");
+		
+		
+		
+		
 	}
 
 }
