@@ -1,5 +1,7 @@
 package test;
 
+import metier.Adresse;
+import metier.Boutique;
 import metier.Console;
 
 public class Test {
@@ -11,6 +13,10 @@ public class Test {
 		Console c3 = new Console("GameBoy Advance");
 		Console c4 = new Console("Switch");
 		Console c5 = new Console("Switch OLED");
+		 
+		Adresse a1 = new Adresse("10","Nintendo","Paris" );
+		Boutique b1 = new Boutique("Nintendo",a1);
+		
 	}
 
 }
