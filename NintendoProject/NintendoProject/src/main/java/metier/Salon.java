@@ -9,4 +9,9 @@ public class Salon extends Console{
 		
 	}
 
+	
+	public String toString() {
+		return "Salon [nom=" + nom + ", prix=" + prix + ", dateSortie=" + dateSortie + "]";
+	}
+
 }

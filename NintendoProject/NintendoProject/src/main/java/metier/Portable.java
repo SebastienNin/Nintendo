@@ -9,4 +9,9 @@ public class Portable extends Console{
 		
 	}
 
+	
+	public String toString() {
+		return "Portable [nom=" + nom + ", prix=" + prix + ", dateSortie=" + dateSortie + "]";
+	}
+
 }
