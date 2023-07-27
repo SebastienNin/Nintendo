@@ -29,6 +29,7 @@ public class Test {
 		
 		Jeu j1 = new Jeu("Jeu 1", c1, b1);
 		Jeu j2 = new Jeu("Jeu 2", c1, b1);
+		Jeu j3 = new Jeu("Jeu 3", c1, b1);
 		Achat achat1 = new Achat(j1, LocalDate.now(), 10);
 		Achat achat2 = new Achat(j2, LocalDate.now(), 10);
 		cl1.getAchats().add(achat1);
